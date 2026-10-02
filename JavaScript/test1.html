@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Fruit List</h1>
+    <div id="root">
+    </div>
+    <script>
+        let divTag = document.getElementById("root");
+        let ultag = document.createElement("ul");
+        ultag.innerHTML = `<li>Apple</li>
+        <li>Banana</li>`;
+        divTag.append(ultag)
+    </script>
+</body>
+</html>

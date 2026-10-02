@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="root">
+
+    </div>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script>
+        let rootEle = document.getElementById("root");
+        let h1Tag = React.createElement("h1",{id : "h1-tag"},'Hello From React');
+        console.log(h1Tag);
+        let pTag = React.createElement('p',{},"Hello EveryOne");
+        let wrapper = React.createElement('div',null,[h1Tag,pTag])
+        let root = ReactDOM.createRoot(rootEle);
+        console.log(root);
+        root.render(wrapper);
+
+    </script>
+</body>
+
+</html>
