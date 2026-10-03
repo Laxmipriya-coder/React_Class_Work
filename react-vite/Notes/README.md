@@ -58,3 +58,9 @@ useState(),
 useRef(),
 useEffect(),
 useReducer().
+
+----------------------------------------------------------------------
+useState
+when we call usestate it will returns a value.
+first will be a value and another will be a function
+single array with two element
