@@ -64,3 +64,11 @@ useState
 when we call usestate it will returns a value.
 first will be a value and another will be a function
 single array with two element
+destructuring is here
+use set keywords
+setCount() is a function we can directly call it  
+if i write without any function we use setstste what happen
+too many rerenders happen
+which accept the initial value 
+setstate is a async function
+we cant call directly. it will shows multiple rerenders
