@@ -1,11 +1,13 @@
-import Controller from "./Components/Controller";
 import Navbar from "./Components/Navbar";
+import Parent from "./Components/Parent";
+import Products from "./Components/Products";
 
 function App() {
   return (
     <>
     <Navbar/>
-    <Controller/>
+    <Parent/>
+    <Products/>
     </>
   )
 }
