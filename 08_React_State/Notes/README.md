@@ -72,30 +72,3 @@ too many rerenders happen
 which accept the initial value 
 setstate is a async function
 we cant call directly. it will shows multiple rerenders
-
-
------------------------------------------------
-Array List items
-key prop shoul have unique value
-which will have the each and every element track of an element.
-
---------------------------------------------------------------------------
-# Forms Handling in React
-
-We can handle forms in 2 ways in react
-1st one is Controlled
-react dom
-usestate
-re-render will happend in each key
-
-2nd One is Uncontrolled
-real dom
-useRef()
-re-render not happend.
-
-------------------------------------
-# Controlled
-usestate()
-then bind eith value attribute
-then add onChange event handler
-
