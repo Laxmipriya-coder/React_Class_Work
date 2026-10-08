@@ -114,4 +114,9 @@ ref is a props
 re-render is not happend in uncontrolled
 
 
-#
+# Conditional Rendering
+based on condition ui should update
+we cant use if else and switch case in react
+we use only && and || and Ternaray Operator
+
+# 
