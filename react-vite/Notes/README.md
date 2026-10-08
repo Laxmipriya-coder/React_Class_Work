@@ -96,6 +96,22 @@ re-render not happend.
 ------------------------------------
 # Controlled
 usestate()
+control by react dom
 then bind eith value attribute
 then add onChange event handler
 
+ const [inputuser, setInputuser] = useState('');
+    const[inputemail,setInputemail] = useState('');
+    const[inputpass,setInputpass] = useState('');
+    instead of doing this we will take const[inputUsn,setInput] = useState({usn:'',email:'',pwd:''})
+
+# Uncontrolled
+react dom will not control
+real dom will control this
+useRef() it is a hook
+useRef('') return an object with current property
+ref is a props
+re-render is not happend in uncontrolled
+
+
+#

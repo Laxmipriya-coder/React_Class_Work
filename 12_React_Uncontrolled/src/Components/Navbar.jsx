@@ -3,7 +3,7 @@ function Navbar() {
         <>
             <nav className="navbar bg-warning">
                 <div className="container-fluid">
-                    <h1>Registrtion Form</h1>
+                    <h1>Uncontrolled Forms</h1>
                     {/* <form className="d-flex" role="search">
                         <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
                         <button className="btn btn-success" type="submit">Search</button>
