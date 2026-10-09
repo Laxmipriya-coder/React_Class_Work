@@ -119,4 +119,4 @@ based on condition ui should update
 we cant use if else and switch case in react
 we use only && and || and Ternaray Operator
 
-# 
+# To do Application
