@@ -1,12 +1,9 @@
-
-import Dashboard from "./Components/Dashboard";
-import Navbar from "./Components/Navbar";
+import TodoApp from "./Components/TodoApp";
 
 function App() {
   return (
     <>
-      <Navbar />
-      {/* <Dashboard/> */}
+    <TodoApp/>
     </>
   )
 }

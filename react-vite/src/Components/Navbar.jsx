@@ -1,13 +1,10 @@
-function Navbar() {
+function Navbar({total}) {
     return (
         <>
             <nav className="navbar bg-warning">
                 <div className="container-fluid">
-                    <h1>To-Do APP</h1>
-                    {/* <form className="d-flex" role="search">
-                        <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-                        <button className="btn btn-success" type="submit">Search</button>
-                    </form> */}
+                   <a href="#" className="navbar-brand">Todo App</a>
+                    <button className="btn btn-success">Total Tasks: {total}</button>
                 </div>
             </nav>
         </>
