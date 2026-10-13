@@ -120,3 +120,29 @@ we cant use if else and switch case in react
 we use only && and || and Ternaray Operator
 
 # To do Application
+# UseRef
+# What is UseEffect()
+help to work with side effects,
+it is a function but dont return anything
+but it accepts 2 arguments
+1st argument is one call back function(Effect function) and another arguments is dependency array(it is optional).
+
+<!-- UseEffect Syntax......... -->
+# useEffect without depencency array
+useEffect(()=>{
+    console.log("Hii");
+})
+# useEffect with empty depencency array
+useEffect(()=>{
+    console.log("Hii");
+},[]);
+# useEffect with dependency array
+useEffect(()=>{
+    console.log("Hii");
+},[state/props]);
+# useEffect with cleanup function
+useEffect(()=>{
+    return ()=>{
+        <!-- cleanup Function -->
+    }
+},[state/props]);
