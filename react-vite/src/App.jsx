@@ -1,9 +1,13 @@
-import TodoApp from "./Components/TodoApp";
+import Character from "./Components/Character";
+import Navbar from "./Components/Navbar";
+import UseEffect from "./Components/UseEffect";
 
 function App() {
   return (
     <>
-    <TodoApp/>
+    <Navbar/>
+    <Character/>
+    <UseEffect/>
     </>
   )
 }

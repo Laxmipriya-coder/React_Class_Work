@@ -132,17 +132,32 @@ but it accepts 2 arguments
 useEffect(()=>{
     console.log("Hii");
 })
+<!-- It executes many times -->
 # useEffect with empty depencency array
 useEffect(()=>{
     console.log("Hii");
 },[]);
+<!-- It executes only ones  -->
+<!-- 
+ re-render........
+ UseEffect Without Dependency Array...........
+ UseEffect with empty Dependency Array.......
+ re-render........
+ UseEffect Without Dependency Array...........
+ re-render........
+ UseEffect Without Dependency Array...........
+ re-render........
+ UseEffect Without Dependency Array...........
+ -->
 # useEffect with dependency array
 useEffect(()=>{
     console.log("Hii");
 },[state/props]);
+<!-- It executes again and again when the state and props are match with that elements -->
 # useEffect with cleanup function
 useEffect(()=>{
     return ()=>{
         <!-- cleanup Function -->
     }
 },[state/props]);
+when the component ius removed from the dom

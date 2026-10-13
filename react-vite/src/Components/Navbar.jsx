@@ -1,10 +1,9 @@
-function Navbar({total}) {
+function Navbar() {
     return (
         <>
             <nav className="navbar bg-warning">
                 <div className="container-fluid">
-                   <a href="#" className="navbar-brand">Todo App</a>
-                    <button className="btn btn-success">Total Tasks: {total}</button>
+                   <h1 className="navbar-brand">Character Counter</h1> 
                 </div>
             </nav>
         </>
