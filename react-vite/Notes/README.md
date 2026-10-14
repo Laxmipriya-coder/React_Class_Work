@@ -160,4 +160,6 @@ useEffect(()=>{
         <!-- cleanup Function -->
     }
 },[state/props]);
-when the component ius removed from the dom
+when the component is removed from the dom
+
+

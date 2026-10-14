@@ -3,7 +3,7 @@ function Navbar() {
         <>
             <nav className="navbar bg-warning">
                 <div className="container-fluid">
-                   <h1 className="navbar-brand">Character Counter</h1> 
+                   <h1 className="navbar-brand">Fetch Data Using UseEffect</h1> 
                 </div>
             </nav>
         </>
