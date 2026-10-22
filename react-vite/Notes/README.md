@@ -164,3 +164,22 @@ when the component is removed from the dom
 
 # axios
 to help you to use http request
+
+
+# Life Cycle Phases of React
+Mounting ---> when it inserted into the DOM
+Updating ---> if rerenders happens updates (if state and props changes)
+Unmounting ---> component removed from the dom
+
+# Mounting
+constructor()
+render()
+componentDidMount()  ---> it is similar with useeffect with empty dependency array.
+
+# Updating
+shouldComponentUpdate() ---> return a booleanvalue and takes two parameter
+render()
+componentDidUpdate()
+
+# Unmounting
+componentWillUnmount()

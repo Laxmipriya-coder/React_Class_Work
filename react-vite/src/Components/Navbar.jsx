@@ -3,7 +3,7 @@ function Navbar() {
         <>
             <nav className="navbar bg-warning fg-2">
                 <div className="container-fluid">
-                    <h1 className="navbar-brand fw-bold">Expense Calculator</h1>
+                    <h1 className="fw-bold">Life Cycle Methods of React</h1>
                 </div>
             </nav>
         </>
