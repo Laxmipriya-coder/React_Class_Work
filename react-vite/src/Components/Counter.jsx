@@ -15,6 +15,7 @@ class Counter extends Component {
         console.log("Going to Update " , nextState);
         return this.state.count != nextState.count
     }
+    
     increment = () => {
         this.setState({
             count: this.state.count + 1

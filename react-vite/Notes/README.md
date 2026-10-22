@@ -182,4 +182,4 @@ render()
 componentDidUpdate()
 
 # Unmounting
-componentWillUnmount()
+componentWillUnmount() --> it uses less memory
