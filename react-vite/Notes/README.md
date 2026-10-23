@@ -183,3 +183,5 @@ componentDidUpdate()
 
 # Unmounting
 componentWillUnmount() --> it uses less memory
+
+
