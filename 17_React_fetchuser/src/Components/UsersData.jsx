@@ -4,7 +4,7 @@ import React, { useEffect, useState } from 'react'
 const UsersData = () => {
 
     const [allproducts, setAllproducts] = useState([])
-    const [currentUser,setCurrentuser]=useState(null)
+    const [currentUser, setCurrentuser] = useState(null)
 
     const fetchData = async () => {
         const { data } = await axios.get("https://fakestoreapi.com/products")
@@ -13,29 +13,25 @@ const UsersData = () => {
     useEffect(() => {
         fetchData()
     }, [])
-  
-    const handleUsers=(e)=>{
-        const {value}=e.target
-        const user=allproducts.filter((ele)=>ele.title===value)
+
+    const handleUsers = (e) => {
+        const { value } = e.target
+        const user = allproducts.filter((ele) => ele.title === value)
         setCurrentuser(user)
     }
-
-
-
-
 
     return (
         <div className='d-flex column-gap-10'>
 
-            
+
 
             <div className="form-field w-25">
                 <label htmlFor="fieldSelect" className="form-label">Country</label>
                 <select onChange={handleUsers} className="form-control" id="fieldSelect" defaultValue="">
                     <option value="">Choose one…</option>
                     {
-                        allproducts.map((product)=>{
-                            return(
+                        allproducts.map((product) => {
+                            return (
                                 <option key={product.id} value={product.title}>{product.title}</option>
                             )
                         })
@@ -60,4 +56,5 @@ const UsersData = () => {
     )
 }
 
-export default UsersData
+export default UsersData;
+

@@ -1,12 +1,26 @@
+import React from 'react'
+import '../App.css'
+import { Link } from 'react-router-dom';
+
 function Navbar() {
     return (
         <>
-            <nav className="navbar bg-warning fg-2">
-                <div className="container-fluid">
-                    <h1 className="fw-bold">Life Cycle Methods of React</h1>
-                </div>
-            </nav>
+           <nav>
+            <h2>Logo</h2>
+            <ul>
+                <li>
+                    <Link to={"/"}>Home</Link>
+                </li>
+                <li><Link to={"/about"}>About</Link></li>
+                <li><Link to={"/contact"}>Contact</Link></li>
+                <li><Link to={"/help"}>Help</Link></li>
+            </ul>
+            <div className="btns">
+                <button><Link to={"/login"}>Login</Link></button>
+                <button><Link to={"/register"}>Register</Link></button>
+            </div>
+           </nav>
         </>
     )
 }
-export default Navbar
+export default Navbar;

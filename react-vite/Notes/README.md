@@ -185,3 +185,17 @@ componentDidUpdate()
 componentWillUnmount() --> it uses less memory
 
 
+# Routing
+it is a technique where we can navigate one componet to another component
+there is no inbuild  routing feature in react js
+react-router dom using this we can achieve react routing
+two ways to create routing
+-->BrowserRouter --- is used to react routing
+-->CreateBrowserRouter
+
+1. Routes
+- Routes is a container that groups multiple route definitions.
+- It checks the current URL and renders the best matching route.
+2. Route
+- Route defines a single route.
+- It specifies which component should display for a particular URL path.
