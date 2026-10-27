@@ -1,5 +1,6 @@
 
 import React from 'react';
+import { Link, Outlet } from 'react-router-dom';
 
 function About() {
     return (
@@ -23,9 +24,18 @@ function About() {
                         Our goal is to provide quality services
                         and make technology easy for everyone.
                     </p>
-                    <button className="btn btn-primary">
-                        Learn More
+                    <button className='btn btn-success'>
+                        <Link to='dashboard' style={{textDecoration:"none",color:"white"}}>
+                            Go to DashBoard
+                        </Link>
                     </button>
+                     <button className='btn btn-primary ms-4'>
+                        <Link to='profile' style={{textDecoration:"none",color:"white"}}>
+                            Go to Profile
+                        </Link>
+                    </button>
+
+                    <Outlet />
                 </div>
             </div>
         </div>

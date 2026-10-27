@@ -1,6 +1,17 @@
-import React from 'react'
+import React, { useState } from 'react'
+import { Link, useNavigate } from 'react-router-dom'
 
 function Home() {
+    const [isLogin, setIsLogin] = useState(true);
+    const navigate = useNavigate();
+    function handleLogin(){
+        if(isLogin){
+            navigate('/contact');
+        }
+        else{
+            navigate('/login')
+        }
+    }
     return (
         <>
             <div>
@@ -13,6 +24,9 @@ function Home() {
                         display: "block",
                         margin: "auto"
                     }}/>
+                <button className='btn btn-primary m-auto mt-4 d-block' onClick={handleLogin} >
+                    Contact Us
+                </button>
             </div>
         </>
     )

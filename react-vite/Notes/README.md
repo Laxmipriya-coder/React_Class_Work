@@ -199,3 +199,14 @@ two ways to create routing
 2. Route
 - Route defines a single route.
 - It specifies which component should display for a particular URL path.
+
+# Nav Link  vs Link
+both are same but difference is navlink special work for navbar with class name active
+
+# Nested Routes
+to use nested routes in parent we have to use Outlet
+
+# Dynamic Routing
+# logic based  navigation 
+# useNavigate Hook
+    
