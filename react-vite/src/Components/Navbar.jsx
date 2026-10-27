@@ -6,7 +6,7 @@ function Navbar() {
     return (
         <>
             <nav>
-                <h2>Routing Concept</h2>
+                <h2>Nested Routing Concept</h2>
                 <ul>
                     <li><Link to={"/"}>Home</Link></li>
                     <li><Link to={"/about"}>About</Link></li>
