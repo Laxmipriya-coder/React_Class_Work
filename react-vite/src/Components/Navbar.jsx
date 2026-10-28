@@ -1,25 +1,19 @@
 import React from 'react'
-import '../App.css'
-import { Link } from 'react-router-dom';
 
 function Navbar() {
     return (
         <>
-            <nav>
-                <h2>Nested Routing Concept</h2>
-                <ul>
-                    <li><Link to={"/"}>Home</Link></li>
-                    <li><Link to={"/about"}>About</Link></li>
-                    <li><Link to={"/contact"}>Contact</Link></li>
-                    <li><Link to={"/help"}>Help</Link></li>
-                    <li><Link to={"/product"}>Product</Link></li>
-                </ul>
-                <div className="btns">
-                    <button><Link to={"/login"}>Login</Link></button>
-                    <button><Link to={"/register"}>Register</Link></button>
+            <nav className="navbar bg-info">
+                <div className="container-fluid">
+                    <a className="navbar-brand">Navbar</a>
+                    <form className="d-flex" role="search">
+                        <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                        <button className="btn btn-secondary" type="submit">Search</button>
+                    </form>
                 </div>
             </nav>
         </>
     )
 }
-export default Navbar;
+
+export default Navbar

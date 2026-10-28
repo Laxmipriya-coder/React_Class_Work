@@ -25,16 +25,15 @@ function About() {
                         and make technology easy for everyone.
                     </p>
                     <button className='btn btn-success'>
-                        <Link to='dashboard' style={{textDecoration:"none",color:"white"}}>
+                        <Link to='dashboard' style={{ textDecoration: "none", color: "white" }}>
                             Go to DashBoard
                         </Link>
                     </button>
-                     <button className='btn btn-primary ms-4'>
-                        <Link to='profile' style={{textDecoration:"none",color:"white"}}>
+                    <button className='btn btn-primary ms-4'>
+                        <Link to='profile' style={{ textDecoration: "none", color: "white" }}>
                             Go to Profile
                         </Link>
                     </button>
-
                     <Outlet />
                 </div>
             </div>

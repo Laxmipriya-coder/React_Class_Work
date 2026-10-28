@@ -210,3 +210,22 @@ to use nested routes in parent we have to use Outlet
 # logic based  navigation 
 # useNavigate Hook
     
+
+# Props Driling
+to avoid props drilling we use context api(for smaller )
+(for bigger we use) Global State Management Libraries--- Redux, Redux Toolkit, Zustard
+
+# Context API
+3 steps
+
+# how to create the context
+1. Create Context
+let  themeContext = createContext();
+to create context we use createContext() it return a context object
+2. Provide Context
+then use 
+<themeContext.Provider value ="dark">
+<Home/>
+</themeContext.provider>
+3. Consume Context
+let data = useContext(ThemeContext);

@@ -1,9 +1,9 @@
 import React from 'react'
 
-function DashBoard() {
+function Dashboard() {
   return (
-    <h1 style={{textAlign:"center"}}>Welcome to Dashboard Page🤩</h1>
+    <div>Dashboard</div>
   )
 }
 
-export default DashBoard
+export default Dashboard
