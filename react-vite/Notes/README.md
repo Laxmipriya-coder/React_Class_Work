@@ -229,3 +229,15 @@ then use
 </themeContext.provider>
 3. Consume Context
 let data = useContext(ThemeContext);
+
+# useReducer Hook
+alterante of usestate
+it accept two arguments
+first one is reducer function/callback function this reducer function must return a value
+second one is initial state
+
+Global state management library
+
+# Redux
+redux is a external library of js
+open source js library used to manage and centralize application state
