@@ -5,7 +5,7 @@ function Navbar() {
         <>
             <nav className="navbar bg-warning">
                 <div className="container-fluid">
-                    <a className="navbar-brand">Redux</a>
+                    <a className="navbar-brand">Redux  Tool Kit</a>
                 </div>
             </nav>
         </>

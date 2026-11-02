@@ -242,4 +242,4 @@ Global state management library
 redux is a external library of js
 open source js library used to manage and centralize application state
 
-# 
+# Redux Tool Kit
