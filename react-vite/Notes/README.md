@@ -245,5 +245,7 @@ open source js library used to manage and centralize application state
 # Redux Tool Kit
 # what is the use of immer library
 
- 
-
+# React.memo it is a function
+# useCallback 
+it takes two argument first on eis callback function and dependency array
+it always return a memoize function

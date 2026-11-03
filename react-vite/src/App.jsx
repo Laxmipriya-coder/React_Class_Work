@@ -1,12 +1,14 @@
 import './App.css'
-import Counter from './Components/Counter'
 import Navbar from './Components/Navbar'
+import Parent from './Components/React_Memo/Parent'
+import Display from './Components/React_UseCallback/Display'
 
 function App() {
   return (
     <>
     <Navbar/>
-    <Counter/>
+    {/* <Parent/> */}
+    <Display/>
     </>
   )
 }
